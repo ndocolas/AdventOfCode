@@ -15,6 +15,4 @@ def count(stone, times):
         return count(int(string[:length//2]), times - 1) + count(int(string[length // 2:]), times - 1)
     return count(stone * 2024, times - 1)
 
-print(sum(count(stone, 75) for stone in stones))
-
-        
+print(sum(count(stone, 75) for stone in stones))        

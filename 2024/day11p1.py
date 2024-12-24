@@ -18,5 +18,3 @@ for _ in range(25):
         list = []
 
 print(len(stones))
-
-        
